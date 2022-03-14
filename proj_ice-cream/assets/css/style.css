@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  font-family: Roboto;
+  /*font-size: 16px;*/
+  height: 100%;
+}
+.container_general {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.container {
+  max-width: 1150px; /*увеличиваем ширину контента на 30, т.к. сделали паддинги по 15*/
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header_container {
+  min-height: 114px;
+  display: flex;
+  align-items: center;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 152px 0 247px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.menu li {
+  margin: 0 20px;
+}
+.menu_item {
+  color: rgba(21, 1, 1, 0.6);
+}
+.button {
+  display: inline-block;
+  flex: 0 0 165px;
+  font-family: "Hind Madurai";
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fafafa;
+  padding: 15px 50px;
+  border-radius: 5px;
+  background-color: #d23166;
+  transition: background-color 0.3s ease 0s;
+}
+.button:hover {
+  background-color: #ca6989;
+}
+.main {
+  flex: 1 1 auto;
+}
+/*______________________________*/
+
+.background {
+  background-color: rgba(242, 206, 218, 0.3);
+}
+.first-page {
+  padding: 126px 15px 0 15px;
+  height: 862px;
+  display: flex;
+  align-items: center;
+}
+.first-page_content {
+  padding: 90px 0 0 0;
+  flex: 0 1 59%;
+}
+.first-page_image {
+  flex: 0 1 41%;
+  background-image: url(../imgs/first-page/ice-cream-main.png);
+  width: 597px;
+  height: 597px;
+  margin: 0 -131px 0 0;
+}
+.slogan {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+h1 {
+  font-family: "Fredoka One";
+  font-size: 57.33px;
+  line-height: 120.5%;
+  color: rgba(15, 1, 1, 0.9);
+}
+h1 span {
+  color: rgba(210, 49, 102, 0.9);
+}
+.first-page_text {
+  max-width: 530px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgba(15, 1, 1, 0.6);
+  margin: 35px 0 50px 0;
+}
+.milk_main-page {
+  margin: 120px 150px -120px -150px;
+}
+/*=================================*/
+.second-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+}
+.benefit {
+  width: 25%;
+}
+.img_benefit {
+  display: block;
+  margin: 0 auto;
+}
+.benefit h2 {
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
+  margin: 23px 0 9px 0;
+}
+.second-page_text {
+  font-family: "Hind Madurai";
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.4;
+  text-align: center;
+}
+/*..................third-page......................*/
+.third-page {
+  display: flex;
+  align-items: center;
+  height: 809px;
+}
+.third-page_content {
+  flex: 0 1 40%;
+}
+.third-page_image {
+  flex: 0 1 60%;
+}
+.third-page_image img {
+  margin: 0 -68px 0 68px;
+}
+.third-page_content h2 {
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1.1;
+  color: #150101;
+}
+.third-page_text {
+  line-height: 1.5;
+  color: rgba(21, 1, 1, 0.6);
+  margin: 16px 0 28px 0;
+}
+/*..................fourth-page......................*/
+.fourth-page {
+  height: 2346px;
+}
+
+.fourth-page_header h2 {
+  text-align: center;
+  font-family: "Hind Madurai";
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1.4;
+  color: #150101;
+  margin: 138px 0 0 0;
+}
+.product-menu {
+  display: flex;
+  justify-content: center;
+  margin: 64px 0 50px 0;
+}
+.product-menu li {
+  margin: 0 20px;
+}
+.product-menu_item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.15;
+  color: rgba(0, 0, 0, 0.6);
+}
+.fourth-page_container {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+.fourth-page_content {
+  flex: 0 1 50%;
+  margin: 0 0 30px 85px;
+}
+.fourth-page_image {
+  flex: 0 1 50%;
+}
+.fourth-page_content h2 {
+  font-family: "Hind Madurai";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.4;
+}
+.fourth-page_text {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 11px 0 28px 0;
+}
+.content_text-right {
+  text-align: right;
+  margin: 0 85px 30px 0;
+}
+.price {
+  font-family: "Hind Madurai";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.4;
+  margin: 0 0 10px 0;
+}
+.price span {
+  font-size: 20px;
+  text-decoration-line: line-through;
+}
