@@ -30,6 +30,7 @@ body {
   max-width: 1150px; /*увеличиваем ширину контента на 30, т.к. сделали паддинги по 15*/
   margin: 0 auto;
   padding: 0 15px;
+  overflow: hidden;
 }
 .background {
   background-color: rgba(242, 206, 218, 0.3);
