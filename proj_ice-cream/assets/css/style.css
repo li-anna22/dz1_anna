@@ -447,6 +447,13 @@ h1 span {
   color: rgba(255, 255, 255, 0.7);
   margin: 10px 0;
 }
+.footer-text {
+  cursor: pointer;
+  transition: color 0.3s ease 0s;
+}
+.footer-text:hover {
+  color: #ffffff;
+}
 .footer_block1 p {
   margin: 9px 0 25px;
 }
