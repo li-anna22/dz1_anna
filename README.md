@@ -1,2 +1,2 @@
-# ice-cream_v1
+# ice-cream
 hw_project ice-cream
